@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6571e692b85a2badfdf32e85"
+  },
+  "img1": "https://photo.teamrabbil.com/images/2023/10/08/7.jpeg",
+  "img2": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "img3": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "img4": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "img5": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "img6": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "img7": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "img8": "https://photo.teamrabbil.com/images/2023/10/08/scaled.jpeg",
+  "des": "This is excellent product that we like most",
+  "color": "Red,Black,Blue",
+  "size": "13,14,17",
+  "productID": {
+    "$oid": "6571c8beaac3beabf0593228"
+  },
+  "createdAt": {
+    "$date": "2023-12-07T15:36:50.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T15:36:50.674Z"
+  }
+}]

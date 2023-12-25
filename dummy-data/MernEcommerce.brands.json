@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "657081f53f9cc2d565cb7b43"
+  },
+  "brandName": "Apple",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:15:17.340Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:15:17.340Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6570820a3f9cc2d565cb7b45"
+  },
+  "brandName": "HP",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:15:38.779Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:15:38.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657082cb3f9cc2d565cb7b47"
+  },
+  "brandName": "Dell",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:18:51.373Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:18:51.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657082dc3f9cc2d565cb7b49"
+  },
+  "brandName": "Lenovo",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:19:08.454Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:19:08.454Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657082ea3f9cc2d565cb7b4b"
+  },
+  "brandName": "Asus",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:19:22.502Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:19:22.502Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657082f83f9cc2d565cb7b4d"
+  },
+  "brandName": "Acer",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:19:36.817Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:19:36.817Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657083053f9cc2d565cb7b4f"
+  },
+  "brandName": "Samsung",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:19:49.238Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:19:49.238Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657083193f9cc2d565cb7b51"
+  },
+  "brandName": "Microsoft",
+  "brandImg": "https://photo.teamrabbil.com/images/2023/08/15/Phones--Tablets-01-3944.png",
+  "createdAt": {
+    "$date": "2023-12-06T14:20:09.475Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T14:20:09.475Z"
+  }
+}]

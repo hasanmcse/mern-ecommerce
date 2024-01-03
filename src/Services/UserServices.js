@@ -73,9 +73,9 @@ const SaveProfileService = async (req) => {
 
 const ReadProfileService = async (req) => {
     try{
-        let user_id=req.headers.id;
-        let data=await ProfileModel.find({userID: user_id})
-        return {status:"success", data:data}
+        let user_id=req.headers.user_id;
+        let result=await ProfileModel.find({userID: user_id})
+        return {status:"success", data:result}
     }
     catch (e) {
         return {status:"fail", data:"Something Went Wrong"}

@@ -2,6 +2,11 @@ const express = require('express');
 
 const ProductController = require("../Controllers/ProductController")
 const UserController = require('../Controllers/UserController')
+const WishListController = require('../Controllers/WishListController')
+const CartListController=require('../Controllers/CartListController')
+//const InvoiceController = require("../Controllers/InvoiceController")
+
+
 const AuthVerification = require('../Middleware/AuthVerification')
 
 const router = express.Router();
@@ -32,13 +37,30 @@ router.post('/CreateProfile', AuthVerification, UserController.CreateProfile)
 router.post('/UpdateProfile', AuthVerification, UserController.UpdateProfile)
 router.get('/ReadProfile', AuthVerification, UserController.ReadProfile)
 
-router.get('/WishList',AuthVerification,ProductController.WishList)
-router.post('/CreateWishList',AuthVerification,ProductController.CreateWishList)
-router.post('/RemoveWishList',AuthVerification,ProductController.RemoveWishList)
 
-router.get('/CartList',AuthVerification,ProductController.CartList)
-router.post('/CreateCartList',AuthVerification,ProductController.CreateCartList)
-router.post('/RemoveCartList',AuthVerification,ProductController.RemoveCartList)
+// Wish api
+ router.get('/WishList',AuthVerification,WishListController.WishList)
+ router.post('/SaveWishList',AuthVerification,WishListController.SaveWishList)
+ router.post('/RemoveWishList',AuthVerification,WishListController.RemoveWishList)
+
+// cart api
+router.post('/SaveCartList',AuthVerification,CartListController.SaveCartList)
+router.post('/UpdateCartList/:cartID',AuthVerification,CartListController.UpdateCartList)
+router.post('/RemoveCartList',AuthVerification,CartListController.RemoveCartList)
+router.get('/CartList',AuthVerification,CartListController.CartList)
+
+
+
+
+
+// Invoice & Payment
+// router.get('/CreateInvoice',AuthVerification,InvoiceController.CreateInvoice)
+// router.get('/InvoiceList',AuthVerification,InvoiceController.InvoiceList)
+// router.get('/InvoiceProductList/:invoice_id',AuthVerification,InvoiceController.InvoiceProductList)
+// router.post('/PaymentSuccess/:trxID',InvoiceController.PaymentSuccess)
+// router.post('/PaymentCancel/:trxID',InvoiceController.PaymentCancel)
+// router.post('/PaymentFail/:trxID',InvoiceController.PaymentFail)
+// router.post('/PaymentIPN/:trxID',InvoiceController.PaymentIPN)
 
 
 
@@ -77,10 +99,6 @@ router.post('/RemoveCartList',AuthVerification,ProductController.RemoveCartList)
 // router.post('/create-user', User.createUser)
 // router.post('/create-profile', Profile.createProfile)
 // router.post('/create-review', Review.createReview)
-
-
-
-
 
 
 module.exports = router;

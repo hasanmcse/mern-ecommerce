@@ -6,11 +6,7 @@ import HomePage from "./pages/home-page"
 const App = ()=> {
 
   return (
-    <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage/>}/>
-        </Routes>
-    </BrowserRouter>
+   <h1>Hello</h1>
   )
 }
 
